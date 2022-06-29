@@ -1,0 +1,15 @@
+.chat-post {
+    padding: 0.75rem 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    border: var(--highlight) solid 2px;
+    border-radius: 35px 26px 26px 0;
+    border-top: hidden;
+    border-right: hidden;
+}
+
+.your-text {
+    border-radius: 26px 35px 0px 26px;
+    border-left: hidden;
+    border-right: solid;
+}

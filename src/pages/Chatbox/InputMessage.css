@@ -1,0 +1,34 @@
+.input {
+	width: 100%;
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+
+.message-input {
+	resize: none;
+	flex: 1;
+	height: 5rem;
+	padding: 0.5rem;
+	font-family: inherit;
+	font-size: 14px;
+	background-color: #222;
+	border: 2px solid #1A1A1A;
+	border-radius: 8px;
+}
+
+.send-button {
+	margin: 1rem;
+	color: var(--white);
+	width: 3rem;
+	height: 3rem;
+	background-color: inherit;
+	background-image: url(/src/static/angle-up.png);
+	background-size: 66%;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 30px;
+	border-width: 2px;
+	border-color: var(--white);
+	cursor: pointer;
+}
